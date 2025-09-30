@@ -16,7 +16,8 @@ const Hero = () => {
 
 
     clip-path: path("M 15 0 L 270 0 A 15 15 0 0 1 285 15 L 285 180 A 15 15 0 0 1 275 195 L 240 195 A 15 15 0 0 1 226 182 L 225 175 A 16 15 0 0 0 210 160 L 15 160 A 15 15 0 0 1 0 145 L 0 15 A 15 15 0 0 1 15 0 Z");
-padding:10px 20px 55px 0;
+padding:12.5px 20px 55px 0;
+
 }      `}</style>
       {/* پس‌زمینه */}
       <div className="absolute inset-0">
@@ -59,7 +60,7 @@ padding:10px 20px 55px 0;
         <div style={{
           position: 'absolute',
           left: '2%',
-          top: '80%',
+          top: '79%',
        
         }} className="flex items-center justify-end gap-2 pt-2">
               {/* 1) مشاهده نقشه - آبی */}
