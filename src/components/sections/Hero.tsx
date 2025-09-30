@@ -83,10 +83,10 @@ padding:12.5px 20px 55px 0;
                     width: '100px',
                     height: '35px',
                      fontSize: '12px',
-    
+  backgroundColor: 'transparent'
                   }}
                 asChild
-                className="bg-black text-white border border-white hover:bg-black/90 rounded-xl  font-semibold shadow-md"
+                className="text-white border border-white hover:bg-black/90 rounded-xl  font-semibold shadow-md"
               >
                 <Link to="/search">شروع جستجو</Link>
               </Button>
